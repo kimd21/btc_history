@@ -1,30 +1,61 @@
 <!DOCTYPE html>
+<html>
 <head>
     <html lang="en"></html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <title>Tribute Page</title>
 </head>
+
+<body>
 <div id="main">
     <!--Title of Webpage-->
-    <div id="title">
-
-    </div>
+    <h1 id="title">Bitcoin: A Brief History</h1>
 
     <!--Image of Tribute-->
     <!--TODO: Image should responsively resize relative to parent element, without exceeding original size-->
     <!--TODO: Image should be centered within parent element-->
     <div id="img-div">
-        <img id="image" src="#" alt="Image of Tribute">
-        <div id="img-caption"></div>
+        <a href="https://en.wikipedia.org/wiki/William_Marsh_Rice"><img id="image" src="bitcoin_logo.png" alt="Image of Tribute"></a>
+        <div id="img-caption">"Bitcoin is a cyrptocurrency, a digital asset designed to work as a medium of exchange 
+            that uses cryptography to control its creation and management, rather than relying on central authorities." -Wikipedia</div>
     </div>
 
     <!--Short Bio of Tribute-->
     <div id="tribute-info">
-
+        <ul>
+            <li><strong>1976-2002</strong> - Advances in public-key cryptography, proof-of-work systems, etc. </li>
+            <br>
+            <li><strong>2008-2010</strong> - Satoshi Nakamoto's white paper is published, the Bitcoin client is released, and some "firsts" take place, like the first trade for fiat money and first trade for a good. Satoshi Nakamoto is still around during this period.</li>
+            <br>
+            <li><strong>2011-2012</strong> - Satoshi Nakamoto disappears, but Bitcoin growth continues. Silk Road, BitPay, and Coinbase all launch during this period.</li>
+            <br>
+            <li><strong>2013</strong> - The price of one Bitcoin reaches US$1,000 for the first time. Shortly after, the price quickly begins to decline, plummetting to around U$300. It would take more than two years before the price reached $1,000 again.</li>
+            <br>
+            <li><strong>2014-2016</strong> - In January 2014, Mt.Gox, the world’s largest Bitcoin exchange, goes offline, and the owners lose 850,000 Bitcoins.[1] This is considered the biggest Bitcoin heist in history. Quickly the Bitcoin price falls below $1,000 around the time, and would struggle below the key level for a few years.</li>
+            <br>
+            <li><strong>2017</strong> - Bitcoin sees a roughly 20-fold rise since the beginning of the year, growing also exponentially in popularity. Throughout 2017, Bitcoin value would grow from US$900 to almost US$20,000.</li>
+            <br>
+            <li><strong>2018</strong> - In January, the Great crypto crash occurs. After an unprecedented boom in 2017, the price of Bitcoin falls by about 65 percent during the month from 6 January to 6 February. In late March, Facebook, Google, and Twitter ban advertisements for initial coin offerings (ICO) and token sales.[3] The price steadily drops all year.[2] By November 15, Bitcoin's market capitalization falls below US$100 billion for the first time since October 2017 and the price of Bitcoin falls to $5,500.[4][5]</li>
+            <br>
+            <li><strong>2019</strong> - Bitcoin sees a new resurgence in price and volume, rising to around US$10,000. As of the end of 2019, the price of one Bitcoin is of around US$7,250.</li>
+            <br>
+            <li><strong>2020</strong> - Bitcoin valuation reaches new record high, surpassing the 2017 bubble highest value.</li>
+        </ul>
     </div>
 
+    <blockquote id="quote">
+        <em>"I see Bitcoin as ultimately becoming a reserve currency for banks, playing much the same role as gold did in the early days of banking. Banks could issue digital cash with greater anonymity and lighter weight, more efficient transactions."
+        --Hal Finney</em>
+    </blockquote>
+
+    <div id="link">
+        <p><strong>For more information about Bitcoin's timeline, visit <a id="tribute-link" href="https://timelines.issarice.com/wiki/Timeline_of_Bitcoin" target="_blank"><u>this link</u></a>.</strong></p>
+    </div>
     <!--Link to Additional Info-->
-    <a id="tribute-link" href="#" target="_blank"></a>
+    
  
 </div>
+</body>
+</html>
